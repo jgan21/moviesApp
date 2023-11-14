@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=Movie, initial-scale=1.0">
+  <title>Movies App</title>
+</head>
+<body>
+  <form>
+    Title
+    <input type="text" placeholder="movie title">
+    Rating
+    <input type="number" placeholder="0 - lowest, 10 - highest">
+    <button>Submit</button>
+  </form>
+  <h4>List of Movies and Ratings</h4>
+  <script src="https://unpkg.com/jquery"></script>
+  <script>
+
+    $("button").on("submit", //add callback)
+
+    function saveMovieInputs(){
+      const movieTitle = $("input").eq(0).val();
+      const rating = $('input').eq(1).val();
+
+    }
+  </script>
+</body>
+</html>
